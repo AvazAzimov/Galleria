@@ -1,0 +1,180 @@
+/* libre-baskerville-regular - latin */
+@font-face {
+    font-family: 'Libre Baskerville';
+    font-display: swap; 
+    font-weight: 400;
+    src: url('../fonts/libre-baskerville-v14-latin-regular.woff2') format('woff2'),
+    url('../fonts/libre-baskerville-v14-latin-regular.woff') format('woff'); 
+}
+/* libre-baskerville-700 - latin */
+@font-face {
+    font-family: 'Libre Baskerville';
+    font-weight: 700;
+    font-display: swap; 
+    src: url('../fonts/libre-baskerville-v14-latin-700.woff2') format('woff2'), 
+    url('../fonts/libre-baskerville-v14-latin-700.woff') format('woff'); 
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: "Libre Baskerville";
+    font-weight: 700;
+}
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #E5E5E5;;
+}
+.header-link {
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 2.57143px;    
+    color: #7D7D7D;
+}
+.grit-container {
+    display: grid;
+    grid-template-columns: repeat(4, 310px);
+    grid-template-rows: repeat(7, 200px);
+    gap: 40px;
+}
+.museum {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 0 32px 32px;
+ 
+}
+.grit-strong {
+    margin-bottom: 6px;
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
+}
+.grit-text {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #fff;
+}
+.box-1 {
+    background-image: url("./imges/starrynight.png");
+    /* background-repeat: no-repeat; */
+}
+.box-2 {
+    /* height: 400px; */
+    background-image: url("./imges/erroing.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: 1 / 3;
+    grid-column: 2 / 3;
+}
+.box-3 {
+    background-image: url("./imges/Guernica.png");
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.box-4 {
+    /* height: 400px; */
+    background-image: url("./imges/PenitentMagdalene.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: 1 / 3;
+    grid-column: 4 / 5;
+}
+.box-5 {
+    /* height: 400px; */
+    background-image: url("./imges/ship.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: 2 / 4;
+    grid-column: 1 / 2;
+}
+.box-6 {
+    background-image: url("./imges/Hokusai.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-7 {
+    /* height: 600px; */
+    background-image: url("./imges/man.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: 2 / 5;
+    grid-column: 3 / 4;
+}
+.box-8 {
+
+    background-image: url("./imges/froot.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-9 {
+    background-image: url("./imges/HenriRousseau.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-10 {
+    /* height: 600px; */
+    background-image: url("./imges/LeonardodaVinci.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: 4 / 7;
+    grid-column: 1 / 2;
+}
+.box-11 {
+    /* height: 400px; */
+    background-image: url("./imges/TheNightCafé.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: 4 / 6;
+    grid-column: 2 / 3;
+}
+.box-12 {
+    /* height: 400px; */
+    background-image: url("./imges/MonaLisa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: 5 / 7;
+    grid-column: 3 / 4;
+}
+.box-13 {
+    background-image: url("./imges/EdwardHopper.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-14 {
+    /* height: 400px; */
+    background-image: url("./imges/JanvanEyck.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: 6 / 8;
+    grid-column: 2 /3;
+}
+.box-15 {
+    background-image: url("./imges/HenriRousseau.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-16 {
+    /* height: 600px; */
+    background-image: url("./imges/TheSwing.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: 5 / 8;
+    grid-column: 4 / 5;
+    
+}
